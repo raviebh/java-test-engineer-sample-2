@@ -33,7 +33,7 @@ import io.swagger.jaxrs.listing.SwaggerSerializers;
  * 
  */
 @Component
-@ApplicationPath("/")
+//@ApplicationPath("/")
 public class JerseyConfiguration extends ResourceConfig {
 	private static final Logger log = Logger.getLogger("JerseyConfiguration");
 	
