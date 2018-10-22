@@ -8,8 +8,8 @@ public interface CartService {
 
 	void saveCart(Cart cart);
 
-	void deleteCart(long id);
+	String deleteCart(long id);
 
-	void updateCart(Cart cart);
+	Cart updateCart(Cart cart);
 
 }
