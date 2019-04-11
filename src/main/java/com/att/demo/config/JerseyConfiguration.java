@@ -1,5 +1,6 @@
 package com.att.demo.config;
 
+import java.io.Console;
 import java.util.logging.Logger;
 
 import javax.annotation.PostConstruct;
@@ -39,6 +40,8 @@ public class JerseyConfiguration extends ResourceConfig {
 	
 	 @Value("${spring.jersey.application-path}")
 	  private String apiPath;
+	 
+	
 	
     /**
      * This method creates an objectmapper and sets configuration related
